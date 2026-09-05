@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Valentine Property Investments</title>
+<link rel="icon" href="assets/logo-icon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <img src="assets/logo-icon.png" alt="">
+      <span class="brand-word">Valentine</span>
+    </a>
+    <ul class="navlinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <a href="account.html" class="nav-cta">Customer Account</a>
+  </div>
+</nav>
+
+<header class="wrap" style="padding:72px 0 24px;">
+  <div class="rule" style="width:64px;height:3px;background:var(--navy);margin-bottom:22px;"></div>
+  <h1>Get in touch</h1>
+  <p class="lede">Whether you're an investor, a property seller, or interested in our maintenance services, we'd like to hear from you.</p>
+</header>
+
+<section class="section" style="padding-top:24px;">
+  <div class="wrap grid grid-2" style="align-items:start;">
+    <div>
+      <h2>Send a message</h2>
+      <form>
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="reason">I'm reaching out about</label>
+          <select id="reason" name="reason">
+            <option>Investment opportunity</option>
+            <option>Selling a property</option>
+            <option>Property maintenance services</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-solid">Send message</button>
+        <p style="font-size:.85rem;color:#6B7280;margin-top:14px;">[Note: this form currently has no backend. Connect it to a form service (e.g. Formspree or Cloudflare Pages Functions) before launch.]</p>
+      </form>
+    </div>
+    <div>
+      <div class="notice">
+        <h3 style="margin-bottom:10px;">Direct contact</h3>
+        <p style="margin-bottom:6px;">Phone: [Add phone number]</p>
+        <p style="margin-bottom:6px;">Email: [Add email address]</p>
+        <p style="margin-bottom:0;">Service area: Lehigh Valley, PA, and surrounding areas within a 50-mile radius.</p>
+      </div>
+      <p style="margin-top:24px;">Existing maintenance customer looking to pay an invoice? <a href="account.html" style="color:var(--navy);font-weight:600;">Go to your Customer Account &rsaquo;</a></p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <span class="brand-word" style="font-size:1.3rem;">Valentine Property Investments</span>
+        <p style="margin-top:14px;color:#9AA2B1;">Lehigh Valley, PA, and surrounding areas within a 50-mile radius.</p>
+      </div>
+      <div>
+        <h3 style="color:#fff;font-size:1rem;margin-bottom:14px;">Company</h3>
+        <p><a href="about.html">About</a></p>
+        <p><a href="portfolio.html">Portfolio</a></p>
+        <p><a href="services.html">Services</a></p>
+      </div>
+      <div>
+        <h3 style="color:#fff;font-size:1rem;margin-bottom:14px;">Get in touch</h3>
+        <p><a href="contact.html">Contact us</a></p>
+        <p><a href="account.html">Customer Account</a></p>
+      </div>
+    </div>
+    <small>&copy; 2026 Valentine Property Investments. All rights reserved.</small>
+  </div>
+</footer>
+
+</body>
+</html>
