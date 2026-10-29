@@ -12,48 +12,56 @@
 </head>
 <body>
 
-<nav class="nav">
+<nav class="nav" aria-label="Main">
   <div class="nav-inner">
     <a href="index.html" class="brand">
       <img src="logo-horizontal.png" alt="Valentine Property Investments">
     </a>
     <ul class="navlinks">
       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="portfolio.html" class="active">Portfolio</a></li>
       <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html" class="active">Portfolio</a></li>
+      <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-    <a href="account.html" class="nav-cta">Customer Account</a>
+    <a href="account.html" class="nav-cta">Pay an Invoice</a>
+    <details class="mnav">
+      <summary>Menu</summary>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="account.html">Pay an Invoice</a></li>
+      </ul>
+    </details>
   </div>
 </nav>
 
-<header class="wrap" style="padding:72px 0 24px;">
+<header class="wrap" style="padding:72px 28px 24px;">
   <div class="rule" style="width:64px;height:3px;background:var(--navy);margin-bottom:22px;"></div>
   <h1>Portfolio</h1>
-  <p class="lede">A look at properties under our care. More projects, including acquisitions and full restorations, will be added here as they're completed.</p>
+  <p class="lede">A look at properties under our care. More projects will be added here as they're completed.</p>
 </header>
 
 <section class="section" style="padding-top:24px;">
   <div class="wrap">
-    <div class="pf-item">
-      <h3 style="margin-bottom:20px;">Lehigh Valley, PA, estate grounds</h3>
-      <p style="margin-bottom:28px;">Ongoing property maintenance for a large residential estate, including lawn care, bed maintenance, and seasonal grounds upkeep, maintained to a consistent, detailed standard year-round.</p>
-      <div class="grid grid-2" style="gap:18px;">
-        <img src="images/portfolio-1.jpg" alt="Estate grounds, Lehigh Valley PA" style="width:100%;height:320px;object-fit:cover;border-radius:4px;">
-        <img src="images/portfolio-2.jpg" alt="Estate grounds, Lehigh Valley PA" style="width:100%;height:320px;object-fit:cover;border-radius:4px;">
-        <img src="images/portfolio-3.jpg" alt="Estate grounds, Lehigh Valley PA" style="width:100%;height:320px;object-fit:cover;border-radius:4px;">
-        <img src="images/portfolio-4.jpg" alt="Estate grounds, Lehigh Valley PA" style="width:100%;height:320px;object-fit:cover;border-radius:4px;">
-      </div>
-      <img src="images/portfolio-5.jpg" alt="Estate grounds, Lehigh Valley PA" style="width:100%;height:420px;object-fit:cover;border-radius:4px;margin-top:18px;">
+    <h2>Lehigh Valley, PA, estate grounds</h2>
+    <p style="margin-bottom:32px;">Ongoing property maintenance for a large residential estate, including lawn care, bed maintenance, and seasonal grounds upkeep, kept to a consistent, detailed standard.</p>
+    <div class="gallery">
+      <img class="wide" src="images/portfolio-5.jpg" alt="Estate home with a mowed lawn and mulched beds, Lehigh Valley PA">
+      <img src="images/portfolio-1.jpg" alt="Manicured lawn beside an estate home" loading="lazy">
+      <img src="images/portfolio-4.jpg" alt="Striped lawn and mulched hillside beds" loading="lazy">
+      <img class="wide" src="images/portfolio-3.jpg" alt="Estate grounds under a clear blue sky" loading="lazy" style="object-position:center 88%;">
     </div>
   </div>
 </section>
 
 <section class="section navy">
   <div class="wrap" style="text-align:center;">
-    <h2>Have a property you'd like us to consider?</h2>
-    <a href="contact.html" class="btn btn-outline" style="margin-top:12px;">Get in touch</a>
+    <h2>Want your property to look like this?</h2>
+    <a href="contact.html" class="btn btn-outline" style="margin-top:12px;">Request a quote</a>
   </div>
 </section>
 
@@ -62,18 +70,28 @@
     <div class="cols">
       <div>
         <span class="brand-word" style="font-size:1.3rem;">Valentine Property Investments</span>
-        <p style="margin-top:14px;color:#9AA2B1;">Lehigh Valley, PA, and surrounding areas within a 50-mile radius.</p>
+        <p style="margin-top:14px;color:#9AA2B1;">Grounded in Quality.</p>
+        <p style="color:#9AA2B1;">Lehigh Valley, PA, and surrounding areas within a 50-mile radius.</p>
+      </div>
+      <div>
+        <h3 style="color:#fff;font-size:1rem;margin-bottom:14px;">Services</h3>
+        <p><a href="services.html#lawn-care">Lawn Care &amp; Mowing</a></p>
+        <p><a href="services.html#hardscaping">Hardscaping</a></p>
+        <p><a href="services.html#mulching">Mulching</a></p>
+        <p><a href="services.html#pruning">Pruning</a></p>
+        <p><a href="services.html#tree-removal">Tree Removal</a></p>
+        <p><a href="services.html#snow-plowing">Snow Plowing</a></p>
       </div>
       <div>
         <h3 style="color:#fff;font-size:1rem;margin-bottom:14px;">Company</h3>
         <p><a href="about.html">About</a></p>
         <p><a href="portfolio.html">Portfolio</a></p>
-        <p><a href="services.html">Services</a></p>
+        <p><a href="services.html#acquisition">Property Investment</a></p>
       </div>
       <div>
         <h3 style="color:#fff;font-size:1rem;margin-bottom:14px;">Get in touch</h3>
-        <p><a href="contact.html">Contact us</a></p>
-        <p><a href="account.html">Customer Account</a></p>
+        <p><a href="contact.html">Request a quote</a></p>
+        <p><a href="account.html">Pay an Invoice</a></p>
       </div>
     </div>
     <small>&copy; 2026 Valentine Property Investments. All rights reserved.</small>
